@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_featured_about_mes",
+  "info": {
+    "name": "about",
+    "icon": "child"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaUrl": {
+      "type": "string"
+    },
+    "pages": {
+      "collection": "page"
+    }
+  }
+}
